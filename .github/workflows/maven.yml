@@ -140,6 +140,6 @@ jobs:
             application_name: william-cicd-platform
             environment_name: william-cicd-platform-env-1
             version_label: ${{github.SHA}}
-            region: ap-southeast-1
+            region: us-east-1
             deployment_package: cicd-demo-0.0.1-SNAPSHOT.jar
 
