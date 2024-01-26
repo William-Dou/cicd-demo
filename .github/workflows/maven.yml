@@ -137,8 +137,8 @@ jobs:
             aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             # aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
             use_existing_version_if_available: false
-            application_name: William-cicd-platform
-            environment_name: William-cicd-platform-env
+            application_name: william-cicd-platform
+            environment_name: william-cicd-platform-env-1
             version_label: ${{github.SHA}}
             region: ap-southeast-1
             deployment_package: cicd-demo-0.0.1-SNAPSHOT.jar
